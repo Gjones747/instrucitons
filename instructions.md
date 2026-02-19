@@ -87,13 +87,15 @@ vim.wo.relativenumber = true
 vim.opt.number = true
 ``` 
 If you save and reopen this file you should now see line numbers. Like this ↓↓↓
+
 [ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cdecb56c-c2f2-41e7-92b8-593bf6d7c499)
 
 5. Now to set your leader key to be the space-bar ```vim.g.mapleader = " "```.
 6. To add a keymapping to go to directory view ```vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)```.
 
 Here is an example options file:
-```-- Line Numbers
+```
+-- Line Numbers
 vim.wo.relativenumber = true      -- Show relative line numbers for easier movement
 vim.opt.number = true             -- Show absolute line number on the current line
 
@@ -151,8 +153,9 @@ what parts are related to each other for better code highlighting.
 1. Navigate to your nvim config folder ```cd ~/.config/nvim```.
 2. Open your init.lua ```nvim init.lua```.
 3. Press ```<shift>o``` to enter insert mode above your current line.
-4. Add the snippet to the top of your code. This ensures lazyVim is installed and installs it if not.
-```local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+4. Add the snippet to the top of your code. This ensures lazyVim is installed and installs it if not:
+```
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
     "git", "clone", "--filter=blob:none",
@@ -168,7 +171,7 @@ vim.opt.rtp:prepend(lazypath)
 7. Create a new plugins.lua file ```nvim plugins.lua```.
    - if this is your first time running nvim with lazyvim there will be a pop-up. To close this
      type ```:q!```.
-8. insert the following code.
+8. insert the following code:
 ```
 require("lazy").setup({
 
