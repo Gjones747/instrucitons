@@ -35,6 +35,11 @@ nvim <filename> # to open a file
 nvim .          # to open a directory view
 ```
 
+> [!Note]
+> When you open NeoVim with the above commands it will turn your terminal into an editor and look something like this!
+> <img width="714" height="446" alt="image" src="https://github.com/user-attachments/assets/e6340dbd-ccdf-42a9-90c3-6e30350a6124" />
+
+
 5. To exit NeoVim:
 ```
 :q             quit
@@ -81,8 +86,8 @@ NVIM comes with a lot of possible settings and key-binds to adjust. Here is how 
 vim.wo.relativenumber = true
 vim.opt.number = true
 ``` 
- - If you save and reopen this file you should now see line numbers. Like this ↓↓↓
-<img width="800" height="525" alt="image" src="https://github.com/user-attachments/assets/60ca66fa-caae-4f75-9b88-f51e8b2b4311" />
+If you save and reopen this file you should now see line numbers. Like this ↓↓↓
+   [ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cdecb56c-c2f2-41e7-92b8-593bf6d7c499)
 
 5. Now to set your leader key to be the space-bar ```vim.g.mapleader = " "```.
 6. To add a keymapping to go to directory view ```vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)```.
