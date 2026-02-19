@@ -235,7 +235,7 @@ mason_lsp.setup({
 })
 ```
 6. To add or remove specific language processing capabilities edit ```ensure_installed```.
-   here are all the ones that are supported [LSPs](https://mason-registry.dev/registry/list).
+   - Here are all the ones that are supported [LSPs](https://mason-registry.dev/registry/list).
 7. Save your file ```:wq```.
 8. Open your init.lua ```cd ..; nvim init.lua```.
 9. At the very bottom add ```require("mason-setup")```.
