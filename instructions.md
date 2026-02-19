@@ -135,9 +135,9 @@ vim.opt.isfname:append("@-@")     -- Allow '@' in filenames
 8. Go back to your init file ```cd ..; nvim init.lua```.
 9. Link your options file to your init.lua by inserting ```require("options")```.
 
->All vim options need to be declared as such ```vim.opt.<option_name> = <value>```.
-
->All vim keybinds follow the same format ```vim.keymap.set("n", "<keybind>", "<command-to-execute>")```.
+> [!TIP]
+> All vim options need to be declared as such ```vim.opt.<option_name> = <value>```.
+> All vim keybinds follow the same format ```vim.keymap.set("n", "<keybind>", "<command-to-execute>")```.
 
 
 Now that you know how to add some basic vim options [here](https://vimhelp.org/options.txt.html#option-summary) is a list of more to choose from.
@@ -147,7 +147,8 @@ Now that you know how to add some basic vim options [here](https://vimhelp.org/o
 Every modern code editor has a Tree-sitter. Essentially it parses your code in real time to determine
 what parts are related to each other for better code highlighting. 
 
-> NOTE: For more efficient package management LazyVim will be used as a dependency manager
+> [!NOTE]
+>For more efficient package management LazyVim will be used as a dependency manager
 
 
 1. Navigate to your nvim config folder ```cd ~/.config/nvim```.
