@@ -49,7 +49,7 @@ nvim .          # to open a directory view
 ```
 
 Congratulations, you've successfully installed NVIM. Next let's make this into a more usable editor.
-To follow the rest of the guide get comfortable with basic VIM mouse-free movement [here](https://phoenixnap.com/kb/vim-keybindings).
+To follow the rest of the guide get comfortable with basic [VIM mouse-free movement](https://phoenixnap.com/kb/vim-keybindings).
 
 
 ## Setting up the Config Folder
@@ -140,7 +140,7 @@ vim.opt.isfname:append("@-@")     -- Allow '@' in filenames
 > All vim keybinds follow the same format ```vim.keymap.set("n", "<keybind>", "<command-to-execute>")```.
 
 
-Now that you know how to add some basic vim options [here](https://vimhelp.org/options.txt.html#option-summary) is a list of more to choose from.
+Now that you know how to add some basic vim options here is a [list of more](https://vimhelp.org/options.txt.html#option-summary) to choose from.
 
 
 ## Installing a Tree-sitter Plugin
@@ -237,7 +237,7 @@ mason_lsp.setup({
 6. To add or remove specific language processing capabilities edit ```ensure_installed```.
    here are all the ones that are supported [LSPs](https://mason-registry.dev/registry/list).
 7. Save your file ```:wq```.
-8. Open your init.lau ```cd ..; nvim init.lua```.
+8. Open your init.lua ```cd ..; nvim init.lua```.
 9. At the very bottom add ```require("mason-setup")```.
 
 ---
