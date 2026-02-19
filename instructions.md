@@ -179,6 +179,9 @@ require("lazy").setup({
 9. To add a plugin all you have to do is add a lua dictionary inside the above function call. 
    For your Tree-sitter add:
 ```
+require("lazy").setup({
+
+
   {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
@@ -195,6 +198,8 @@ require("lazy").setup({
       })
     end,
   },
+
+})
 ```
 
 10. Save your file ```:wq```.
