@@ -65,7 +65,7 @@ to keep everything organized.
 3. Enter the folder by doing ```cd nvim```.
 4. Create your init.lua file ```nvim init.lua``` - Lua is the language NeoVim uses for configuration.
 5. Save the file by entering ```:wq!```.
-6. Now make a new sub directory called lua ```mkdir lua```.
+6. Make a new sub directory called lua ```mkdir lua```.
 7. Go back to your main nvim directory by typing ```cd ~/.config/nvim```.
 
 When you type ```ls``` you should see an ```init.lua``` file and a ```/lua``` directory. 
@@ -243,7 +243,7 @@ mason_lsp.setup({
 ---
 
 ## Conclusion
-Now you have a modern and customizable text editor that you can mold to your liking. To add additional
-things refer to the process outlined above just for different packages!
+Now you have a modern and customizable text editor that you can mold to your liking. For addtional
+packages refer to the process outlined above!
 
 
