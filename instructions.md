@@ -6,7 +6,9 @@ This document specifies the steps required to install Neovim on macOS and config
 modern development environment using Lua-based configuration, core editor options, and a Tree-sitter + LSP
 for syntax parsing.
 
-Platform: macOS  
+> [!WARNING]
+> **macOS only. This guide will only be successful for macOS users.**
+
 Prerequisites:
 - Terminal access
 - Homebrew installed
@@ -22,7 +24,6 @@ Scope:
 ---
 
 ## Installing NVIM
-***macOS only***
 
 1. Open a new terminal window.
 2. Type ```brew --version``` to ensure Homebrew is installed on your system.
