@@ -81,7 +81,9 @@ NVIM comes with a lot of possible settings and key-binds to adjust. Here is how 
 vim.wo.relativenumber = true
 vim.opt.number = true
 ``` 
- - If you save and reopen this file you should now see line numbers.
+ - If you save and reopen this file you should now see line numbers. Like this ↓↓↓
+<img width="800" height="525" alt="image" src="https://github.com/user-attachments/assets/60ca66fa-caae-4f75-9b88-f51e8b2b4311" />
+
 5. Now to set your leader key to be the space-bar ```vim.g.mapleader = " "```.
 6. To add a keymapping to go to directory view ```vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)```.
 
