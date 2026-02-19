@@ -7,7 +7,7 @@ modern development environment using Lua-based configuration, core editor option
 for syntax parsing.
 
 > [!WARNING]
-> **macOS only. This guide will only be successful for macOS users.**
+> **MacOS only. This guide will only be successful for macOS users.**
 
 Prerequisites:
 - Terminal access
@@ -87,7 +87,7 @@ vim.wo.relativenumber = true
 vim.opt.number = true
 ``` 
 If you save and reopen this file you should now see line numbers. Like this ↓↓↓
-   [ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cdecb56c-c2f2-41e7-92b8-593bf6d7c499)
+[ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cdecb56c-c2f2-41e7-92b8-593bf6d7c499)
 
 5. Now to set your leader key to be the space-bar ```vim.g.mapleader = " "```.
 6. To add a keymapping to go to directory view ```vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)```.
