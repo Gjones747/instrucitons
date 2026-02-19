@@ -87,8 +87,7 @@ vim.wo.relativenumber = true
 vim.opt.number = true
 ``` 
 If you save and reopen this file you should now see line numbers. Like this ↓↓↓
-
-[ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/cdecb56c-c2f2-41e7-92b8-593bf6d7c499)
+![ScreenRecording2026-02-18at11 42 25PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/496b5867-adab-4592-ac12-078c7bfb7e8a)
 
 5. Now to set your leader key to be the space-bar ```vim.g.mapleader = " "```.
 6. To add a keymapping to go to directory view ```vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)```.
@@ -137,6 +136,7 @@ vim.opt.isfname:append("@-@")     -- Allow '@' in filenames
 
 > [!TIP]
 > All vim options need to be declared as such ```vim.opt.<option_name> = <value>```.
+>
 > All vim keybinds follow the same format ```vim.keymap.set("n", "<keybind>", "<command-to-execute>")```.
 
 
@@ -220,7 +220,6 @@ An LSP allows for code syntax error highlighting and autocomplete.
 ```
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
-
 ```
 3. Save your file ```<shift>ZZ```.
 4. Create a new file to configure masonLSP ```nvim mason-setup.lua```.
